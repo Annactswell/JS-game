@@ -10,7 +10,7 @@
 
 <body>
   <canvas id="canvas"></canvas>
-  
+
   <select class="player-state">
     <option value="idle">休息</option>
     <option value="fall">坠落</option>
@@ -23,12 +23,13 @@
     <option value="ko">被击败</option>
     <option value="getHit">被击</option>
   </select>
-  
-  <div class="game-speed">
-    <span class="title">游戏速度：
-    <input type="range" min="0" max="20" value="5" class="slider" id="slider">
-  </div>
 
+  <div class="game-frame">
+    <span class="title">游戏帧数：
+    <input type="range" min="1" max="100" value="50" class="slider" id="slider">
+    <span class="frame">50</span>
+  </div>
+  
   <script src="./JavaScript/index.js"></script>
   <script src="./JavaScript/flexible.js"></script>
 </body>
