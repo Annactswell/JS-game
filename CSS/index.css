@@ -22,16 +22,44 @@ body {
   font-size: 0.5rem;
 }
 
-.game-speed {
+.game-frame {
   margin-top: 0.4rem;
 }
 
-.game-speed .title {
+.game-frame .speed {
+  width: 5rem;
+  height: 0.8rem;
+  outline: none;
+  font-size: 0.6rem;
+  padding-left: 0.2rem;
+}
+
+.game-frame .btn {
+  height: 0.8rem;
+  width: 1.4rem;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.1rem;
+  color: white;
+  font-size: 0.5rem;
+}
+
+.game-frame .btn:hover {
+  cursor: pointer;
+}
+
+.game-frame .title {
   margin-left: 0.2rem;
   color: white;
   font-size: 0.5rem;
 }
 
-.game-speed .slider {
-  width: 6.6rem;
+.game-frame .slider {
+  width: 5.6rem;
+}
+
+.game-frame .frame {
+  margin-left: 0.2rem;
+  color: white;
+  font-size: 0.5rem;
 }
