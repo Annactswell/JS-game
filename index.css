@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
+
+#canvas {
+  margin: 0.2rem 0.2rem;
+  width: 9.6rem;
+  background-color: white;
+  border: 0.03rem solid black;
+}
+
